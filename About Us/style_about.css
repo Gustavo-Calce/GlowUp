@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% 20px 10%;
+}
+
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #37d6e1;
+    text-decoration: none;
+}
+
+
+.logo{
+    display: flex;
+    color: #37d6e1;
+    font-size: larger;
+    cursor: pointer;
+}
+.logo h3{
+    margin-left: 10px;
+}
+.logo i{
+    margin: auto;
+    font-size: 25px;
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #2db0b9;
+}
+
+.icons i{
+    font-size: 20px;
+}
+button{
+    padding: 9px 25px;
+    background-color: #37d6e1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: #2db0b9;
+}
+
+/* .cta1 button{
+    padding: 6.5px 20px;
+    background-color: white;
+    border: solid;
+    color: #37d6e1;
+    border-color: #37d6e1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 10px;
+} */
+
+/* HEADER */
+
+hr {
+    background: #37d6e1;
+    border: 3px;
+    height: 2px;
+    margin: 5px 10%;
+}
+
+/* SECTION 1 */
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text1 h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.text1 h1{
+    color: #37d6e1;
+    font-size: 50px;
+}
+.text1 i{
+    padding: 11px 13px;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 50%;
+    margin: 0 10px 0 0px;
+}
+.text1 h2{
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 450px;
+    width: 450px;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+}
+.tags a{
+    text-decoration: none;
+    padding: 8px 13px;
+    background-color: #acacac34;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: #000000;
+}
