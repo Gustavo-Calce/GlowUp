@@ -9,16 +9,9 @@
     <title>Glow up</title>
 </head>
 <body>
-    <script src="script.js"></script>
     <header>
         <a href="index.html">
             <div class="logo">
-                 <!-- <i class="fa-solid fa-power-off"style="color: #37d6e1;"></i>
-                <i class="fa-solid fa-lightbulb"></i> -->
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" style="color: #37d6e1;">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-                  </svg> -->
-                  
                 <i class="fa-regular fa-lightbulb" style="color: #37d6e1;"></i>
                 <h3>GLOW UP</h3>
             </div>
@@ -36,12 +29,72 @@
                 <!-- <i class="fa-solid fa-x" id="closeBtn"></i> -->
             </div>
             <i class="fa-solid fa-magnifying-glass" style="color: #37d6e1;" id="searchBtn"></i>
-            <a href="#" class="cta"><button>Login</button></a>
-           <!--  <a1 href="#" class="cta1"><button>Registre-se</button></a> -->
-        </div>
+            <button class="button" id="form-open">Login</button>
         </div>
     </header>
     <hr>
+
+    <!-- LOGIN FORM -->
+    <section class="home">
+        <div class="formBox">
+            <i class="fa-solid fa-xmark form_close"></i>
+            <div class="loginForm">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputBox">
+                        <i class="fa-regular fa-envelope icon"></i>
+                        <input type="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fa-solid fa-lock icon"></i>
+                        <input type="password" placeholder="Digite sua senha">
+                        <!-- <i class="fa-regular fa-eye"></i> -->
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Lembre de mim</label>
+                        </span>
+                        <a href="" class="forgot_pw">Esqueceu a senha?</a>
+                    </div>
+                    <button class="button">Entrar</button>
+                    <div class="login_singup">
+                        Não tem uma conta? <a href="" id="singup">Inscreva-se</a>
+                    </div>
+                </form>
+            </div>
+        
+
+            <!-- SINGUP FORM -->
+        
+            <div class="singupForm">
+                <form action="">
+                    <h2>Crie sua conta</h2>
+                    <div class="inputBox">
+                        <i class="fa-regular fa-envelope icon"></i>
+                        <input type="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fa-solid fa-lock icon"></i>
+                        <input type="password" placeholder="Crie sua senha">
+                        
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="inputBox">
+                        <i class="fa-solid fa-lock icon"></i>
+                        <input type="password" placeholder="Confirme sua senha">
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                    <button class="button">Inscreva-se</button>
+                    <div class="login_singup">
+                        Já tem uma conta? <a href="" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <section class="section1">
         <div class="box1">
@@ -188,7 +241,6 @@
                     <a href="">Imagens</a>
                 </div>
             </div>
- 
                 <div class="subscribe-section">
                     <div class="logo-icons">
                         <div class="social-icons">
@@ -204,18 +256,17 @@
                     </div>
                     <div class="subscribe-form">
                       <form>
-                        <i class="fa-regular fa-envelope"></i>
-                        <input type="email" placeholder="Digite seu e-mail">
+                        <div class="subscribeBox">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" placeholder="Digite seu e-mail">
+                        </div>
                         <button type="submit">Subscribe</button>
                       </form>
                     </div>
                 </div>
-                
-
-
-                
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
